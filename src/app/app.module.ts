@@ -13,6 +13,8 @@ import {
   MatButtonModule,
   MatIconModule,
   MatCardModule,
+  MatTableModule,
+  MatAutocompleteModule
 } from "@angular/material";
 import { FormsModule } from "@angular/forms";
 import "hammerjs";
@@ -49,6 +51,8 @@ import { SearchComponent } from './search/search.component';
     MatButtonModule,
     MatIconModule,
     MatCardModule,
+    MatTableModule,
+    MatAutocompleteModule,
 
     BrowserModule,
     FormsModule,

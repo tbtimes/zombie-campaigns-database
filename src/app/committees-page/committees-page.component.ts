@@ -24,7 +24,7 @@ export class CommitteesPageComponent implements OnInit {
 
   constructor(private store: Store<reducers.State>) {
     this.isLoading$ = store.select(reducers.getCommitteesLoading);
-    this.filteredCommittees$ = store.select(reducers.getFilteredCommittes);
+    this.filteredCommittees$ = store.select(reducers.getFilteredCommittees);
   }
 
   ngOnInit() {

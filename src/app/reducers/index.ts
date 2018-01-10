@@ -28,10 +28,11 @@ export const metaReducers: MetaReducer<State>[] = !environment.production ? [log
 
 // Router selectors
 export const getRouterState = createFeatureSelector<fromRouter.RouterReducerState<RouterStateUrl>>("routerReducer");
-export const getRouterParams = createSelector(getRouterState, (state) => state.state.params);
+export const getRouterParams = createSelector(getRouterState, (state) => state.state.queryParams);
+export const getRouterSearchParam = createSelector(getRouterParams, (state) => state.search);
 
 // Committee selectors
 export const getCommitteesState = createFeatureSelector<fromComm.State>("committees");
 export const getCommittees = createSelector(getCommitteesState, fromComm.getCommittees);
 export const getCommitteesLoading = createSelector(getCommitteesState, fromComm.getCommitteesLoading);
-export const getFilteredCommittes = createSelector(getCommitteesState, fromComm.getFilteredCommittees);
+export const getFilteredCommittees = createSelector(getCommitteesState, fromComm.getFilteredCommittees);
