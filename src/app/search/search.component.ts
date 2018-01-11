@@ -13,7 +13,7 @@ import { Router } from "@angular/router";
   template: `
     <mat-form-field class="fullwidth">
       <input (keyup)="keyup(searchVal)" matInput type="text" placeholder="Search" [(ngModel)]="searchVal" />
-      <button [color]="'accent'" *ngIf="searchVal" matSuffix mat-icon-button aria-label="Clear" (click)="searchVal='';reset()">
+      <button [color]="'warn'" *ngIf="searchVal" matSuffix mat-icon-button aria-label="Clear" (click)="searchVal='';reset()">
         <mat-icon>close</mat-icon>
       </button>
     </mat-form-field>
