@@ -13,4 +13,6 @@ export interface Committee {
   criteria: Criteria[];
   expanded: boolean;
   tags: string[];
+  bio: string;
+  mugshot: string;
 }

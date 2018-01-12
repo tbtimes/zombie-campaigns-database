@@ -15,7 +15,7 @@ import { MatTableDataSource } from "@angular/material";
         <mat-card-title-group style="width: 100%;">
           <mat-card-title>{{ committee.candidate_name }}</mat-card-title>
           <mat-card-subtitle>{{ committee.committee_name }}</mat-card-subtitle>
-          <img style="float: right;" mat-card-md-image src="http://bioguide.congress.gov/bioguide/photo/T/T000034.jpg">
+          <img style="float: right;" mat-card-md-image src="assets/{{committee.mugshot}}">
         </mat-card-title-group>
         
       </mat-card-header>
@@ -34,8 +34,7 @@ import { MatTableDataSource } from "@angular/material";
         </div>
         
         <div class="bio">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra ante quis eros tincidunt, id fringilla ipsum sollicitudin. Aliquam erat volutpat. Praesent sagittis dui elit, eu molestie ipsum fringilla at. Suspendisse a risus luctus tellus malesuada sagittis ut in est. Duis at commodo erat, a molestie magna. Quisque a velit non dui egestas finibus quis id lorem. Nullam iaculis risus vitae ante tincidunt varius.</p>
-          <p>Curabitur consequat posuere magna aliquam rhoncus. Maecenas eget purus dictum, tincidunt leo quis, facilisis felis. Curabitur malesuada interdum elit, sed lobortis eros dignissim sit amet. Praesent vulputate et urna vestibulum suscipit. Etiam maximus dui feugiat enim bibendum gravida. Vestibulum eget libero felis. Phasellus porttitor ante in condimentum suscipit.</p>
+          <p>{{committee.bio}}</p>
         </div>
         
         <ul class="toplines">
