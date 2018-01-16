@@ -4,6 +4,7 @@ import * as reducers from "../reducers";
 import { Observable } from "rxjs/Observable";
 import * as CommActions from "../actions/committee";
 import { Committee } from "../models/Committee";
+import tags from "../tagStub";
 
 
 @Component({
@@ -12,7 +13,7 @@ import { Committee } from "../models/Committee";
   template: `
     <mat-progress-spinner *ngIf="(isLoading$ | async); else gizmos"></mat-progress-spinner>
     <ng-template #gizmos>
-      <zc-search></zc-search>
+      <zc-search [options]="tagOptions"></zc-search>
       <zc-committee-list *ngIf="(filteredCommittees$ | async)?.length > 0" [committees]="filteredCommittees$ | async"></zc-committee-list>
     </ng-template>
   `,
@@ -21,6 +22,7 @@ import { Committee } from "../models/Committee";
 export class CommitteesPageComponent implements OnInit {
   isLoading$: Observable<boolean>;
   filteredCommittees$: Observable<Committee[]>;
+  tagOptions: string[] = tags;
 
   constructor(private store: Store<reducers.State>) {
     this.isLoading$ = store.select(reducers.getCommitteesLoading);

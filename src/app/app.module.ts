@@ -16,7 +16,7 @@ import {
   MatTableModule,
   MatAutocompleteModule
 } from "@angular/material";
-import { FormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import "hammerjs";
 
 
@@ -56,6 +56,7 @@ import { SearchComponent } from './search/search.component';
 
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     CommonModule,
     StoreModule.forRoot(reducers, { metaReducers }),
