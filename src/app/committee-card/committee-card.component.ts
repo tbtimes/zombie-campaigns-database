@@ -10,37 +10,42 @@ import { MatTableDataSource } from "@angular/material";
   //language=Angular2HTML
   template: `
     <mat-card class="committee-card">
-      <mat-card-header>
-        
-        <mat-card-title-group style="width: 100%;">
+      <div class="mobile-header">
           <mat-card-title>{{ committee.candidate_name }}</mat-card-title>
           <mat-card-subtitle>{{ committee.committee_name }}</mat-card-subtitle>
-        </mat-card-title-group>
-
-        <svg *ngIf="committee.mugshot === 'anonymous.png'" fill="#000000" height="200" viewBox="0 0 24 24" width="200" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3 5v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5c-1.11 0-2 .9-2 2zm12 4c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3zm-9 8c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1H6v-1z"/>
-          <path d="M0 0h24v24H0z" fill="none"/>
+      </div>
+      <div class="mat-card-side">
+        <svg *ngIf="committee.mugshot === 'anonymous.png'" x="0px" y="0px" width="175px" height="175px"
+           viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+        <style type="text/css">
+          .st0{fill:#333333;}
+          .st1{fill:none;}
+        </style>
+        <path class="st0" d="M0,5.3v37.3C0,45.6,2.4,48,5.3,48h37.3c2.9,0,5.3-2.4,5.3-5.3V5.3C48,2.4,45.6,0,42.7,0H5.3C2.4,0,0,2.4,0,5.3z
+           M32,16c0,4.4-3.6,8-8,8s-8-3.6-8-8s3.6-8,8-8S32,11.6,32,16z M8,37.3c0-5.3,10.7-8.3,16-8.3s16,2.9,16,8.3V40H8V37.3z"/>
+        <path class="st1" d="M0,0h48v48H0V0z"/>
         </svg>
-        <img class="pol-mug" src="assets/mugs/{{committee.mugshot}}" *ngIf="committee.mugshot !== 'anonymous.png'">
 
-        
-        
-      </mat-card-header>
-      <div class="dates">
-        <div *ngIf="committee.date_left_office">
-          <div>Left office: <span class="date-span">{{committee.date_left_office | date : 'MM/dd/yyyy'}}</span></div>
-        </div>
-        <div *ngIf="committee.date_last_election">
-          <div>Last election: <span class="date-span">{{committee.date_last_election | date : 'MM/dd/yyyy'}}</span></div>
-        </div>
-        <div *ngIf="committee.date_dead">
-          <div>Died: <span class="date-span">{{committee.date_dead | date : 'MM/dd/yyyy'}}</span></div>
+        <img class="pol-mug" src="assets/mugs/{{committee.mugshot}}" *ngIf="committee.mugshot !== 'anonymous.png'">
+        <div class="dates">
+          <div *ngIf="committee.date_left_office">
+            <div>Left office: <span class="date-span">{{committee.date_left_office | date : 'MM/dd/yyyy'}}</span></div>
+          </div>
+          <div *ngIf="committee.date_last_election">
+            <div>Last election: <span class="date-span">{{committee.date_last_election | date : 'MM/dd/yyyy'}}</span></div>
+          </div>
+          <div *ngIf="committee.date_dead">
+            <div>Died: <span class="date-span">{{committee.date_dead | date : 'MM/dd/yyyy'}}</span></div>
+          </div>
         </div>
       </div>
       
       
       <mat-card-content>
-        
+        <mat-card-title-group style="width: 100%;">
+          <mat-card-title>{{ committee.candidate_name }}</mat-card-title>
+          <mat-card-subtitle>{{ committee.committee_name }}</mat-card-subtitle>
+        </mat-card-title-group>
         <div class="bio">
           <p>{{committee.bio}}</p>
         </div>
@@ -71,6 +76,7 @@ import { MatTableDataSource } from "@angular/material";
         </div>
         
         <button [color]="'primary'" class="card-action" mat-button (click)="committee.expanded = !committee.expanded">
+          Expand to see all spending
           <mat-icon *ngIf="committee.expanded">expand_less</mat-icon>
           <mat-icon *ngIf="!committee.expanded">expand_more</mat-icon>
         </button>
@@ -79,17 +85,56 @@ import { MatTableDataSource } from "@angular/material";
     </mat-card>
   `,
   styles: [`           
-           .committee-card {
-               margin-bottom: 1em;
+           .committee-card, .mat-form-field {
+              margin: 0 0.5rem;
+              margin-bottom: 1em;
+           }
+           .mobile-header {
+              display: none;
+           }
+           .mat-card-side, mat-card-content {
+              vertical-align: top;
+              line-height: 1.5;
+           }
+           .mat-card-title-group {
+              margin: 0;
            }
            .dates {
-               max-width: 300px;
-               margin-top: -100px !important;
-               margin-bottom: 100px !important;
-               font-size: 1em;
+              font-size: 0.95rem;
            }
-           .date-span {
-               float: right;
+           .dates div {
+              margin-top: 0.5rem;
+           }
+           .mat-card-side {
+              display: inline-block;
+              width: 200px;
+           }
+           .mat-card-side img {
+              width: 175px;
+              height: auto;
+              text-align: center;
+           }
+           mat-card-content {
+              display: inline-block;
+              width: 430px;
+           }
+           @media (max-width: 720px) {
+              .mobile-header {
+                  display: block;
+                  text-align: center;
+              }
+              mat-card-content mat-card-title-group {
+                  display: none;
+              }
+              mat-card-content {
+                  display: block;
+                  width: 100%;
+              }
+              .mat-card-side {
+                  display: block;
+                  width: 100%;
+                  text-align: center;
+              }
            }
            .card-action {
                margin: 0 auto; 

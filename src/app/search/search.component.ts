@@ -16,7 +16,7 @@ import { map } from "rxjs/operators/map";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `    
     <mat-form-field class="fullwidth">
-      <input type="text" placeholder="search" matInput [formControl]="searchControl" [matAutocomplete]="auto">
+      <input type="text" placeholder="Search for a politician" matInput [formControl]="searchControl" [matAutocomplete]="auto">
       <button [color]="'warn'" *ngIf="searchControl.value" matSuffix mat-icon-button aria-label="Clear" (click)="reset()">
         <mat-icon>close</mat-icon>
       </button>
@@ -30,7 +30,11 @@ import { map } from "rxjs/operators/map";
   `,
   styles: [`
            .fullwidth {
-               width: 100%;
+               display: block;
+               margin: 1em 0.5rem;
+           }
+           .mat-form-field-infix {
+              max-width: 100%;
            }
            `]
 })
