@@ -34,9 +34,18 @@ import { Store } from "@ngrx/store";
            }
            .mat-toolbar {
               background: url('assets/charcoal2.jpg');
+              overflow: hidden;
            }
            .mat-toolbar img {
               height: 28px;
+           }
+           @media(max-width: 450px) {
+              .mat-toolbar img {
+                height: 20px;
+              }
+              .link-to-story {
+                font-size: 14px;
+              }
            }
            .content-well {
                max-width: 700px;
