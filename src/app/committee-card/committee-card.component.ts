@@ -50,9 +50,9 @@ import { MatTableDataSource } from "@angular/material";
           <p>{{committee.bio}}</p>
         </div>
         
-        <ul class="toplines">
-          <li *ngFor="let crit of redCats">Spent {{ crit.sum | currency : 'USD'}} on {{ crit.category }}</li>
-        </ul>
+        <!--<ul class="toplines">-->
+          <!--<li *ngFor="let crit of redCats">Spent {{ crit.sum | currency : 'USD'}} on {{ crit.category }}</li>-->
+        <!--</ul>-->
         
         <div *ngIf="committee.expanded" class="data-table-expansion">
           <mat-table [dataSource]="tableData">
@@ -62,10 +62,10 @@ import { MatTableDataSource } from "@angular/material";
             </ng-container>
             <ng-container matColumnDef="sum">
               <mat-header-cell *matHeaderCellDef>Total spent</mat-header-cell>
-              <mat-cell *matCellDef="let crit">{{ crit.sum | currency : 'USD'}}</mat-cell>
+              <mat-cell *matCellDef="let crit">{{ crit.sum | currency : 'USD' : 'symbol' : '2.0-0' }}</mat-cell>
             </ng-container>
             <mat-header-row *matHeaderRowDef="['category', 'sum']"></mat-header-row>
-            <mat-row *matRowDef="let crit; columns: ['category', 'sum']"></mat-row>
+            <mat-row [ngClass]="{'highlight': crit.color === 'red'}" *matRowDef="let crit; columns: ['category', 'sum']"></mat-row>
           </mat-table>
           
           <a style="text-decoration: none;" href="assets/disbursements/{{committee.committee_id}}.csv" download>
@@ -85,6 +85,9 @@ import { MatTableDataSource } from "@angular/material";
     </mat-card>
   `,
   styles: [`           
+           .highlight {
+               background-color: wheat;
+           }
            .committee-card, .mat-form-field {
               margin: 0 0.5rem;
               margin-bottom: 1em;
@@ -160,7 +163,7 @@ export class CommitteeCardComponent implements OnInit {
   ngOnInit() {
     this.redCats = this.committee.criteria.filter(x => x.color === 'red').sort((a, b) => a.sum > b.sum ? -1 : 1);
     this.tableData = new MatTableDataSource();
-    this.tableData.data = this.committee.criteria;
+    this.tableData.data = this.committee.criteria.sort((a,b) => a.sum > b.sum ? -1 : 1);
   }
 
 }

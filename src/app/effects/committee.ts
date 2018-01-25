@@ -22,7 +22,7 @@ export class CommitteeEffects {
     .ofType<CommitteeActions.LoadCommittees>(CommitteeActions.LOAD)
     .switchMap(_ => {
       return this.committeeService.getCommittees()
-        .map((committees: Committee[])=> new CommitteeActions.LoadCommitteesSuccess(committees))
-        .catch(() => of(new CommitteeActions.LoadCommitteesSuccess([])))
+        .map(({committees, tags})=> new CommitteeActions.LoadCommitteesSuccess({committees, tags}))
+        .catch(() => of(new CommitteeActions.LoadCommitteesSuccess({committees: [], tags: []})))
     })
 }

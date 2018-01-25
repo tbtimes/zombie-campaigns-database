@@ -36,3 +36,4 @@ export const getCommitteesState = createFeatureSelector<fromComm.State>("committ
 export const getCommittees = createSelector(getCommitteesState, fromComm.getCommittees);
 export const getCommitteesLoading = createSelector(getCommitteesState, fromComm.getCommitteesLoading);
 export const getFilteredCommittees = createSelector(getCommitteesState, fromComm.getFilteredCommittees);
+export const getTags = createSelector(getCommitteesState, fromComm.getTags);

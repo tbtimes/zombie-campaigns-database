@@ -25,7 +25,7 @@ export class LoadCommittees implements Action {
 
 export class LoadCommitteesSuccess implements Action {
   readonly type = LOAD_SUCCESS;
-  constructor(public payload: Committee[]) {}
+  constructor(public payload: {committees: Committee[], tags: string[]}) {}
 }
 
 export type CommitteeActions = LoadCommittees
