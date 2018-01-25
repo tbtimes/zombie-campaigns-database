@@ -54,7 +54,7 @@ import { MatTableDataSource } from "@angular/material";
           <!--<li *ngFor="let crit of redCats">Spent {{ crit.sum | currency : 'USD'}} on {{ crit.category }}</li>-->
         <!--</ul>-->
         
-        <div *ngIf="committee.expanded" class="data-table-expansion">
+        <div class="data-table-expansion">
           <mat-table [dataSource]="tableData">
             <ng-container matColumnDef="category">
               <mat-header-cell *matHeaderCellDef>Purpose</mat-header-cell>
@@ -67,19 +67,21 @@ import { MatTableDataSource } from "@angular/material";
             <mat-header-row *matHeaderRowDef="['category', 'sum']"></mat-header-row>
             <mat-row [ngClass]="{'highlight': crit.color === 'red'}" *matRowDef="let crit; columns: ['category', 'sum']"></mat-row>
           </mat-table>
+
+          <button *ngIf="committee.criteria.length > 3" [color]="'primary'" class="card-action" mat-button (click)="ngOnExpand()">
+            Expand to see all spending
+            <mat-icon *ngIf="committee.expanded">expand_less</mat-icon>
+            <mat-icon *ngIf="!committee.expanded">expand_more</mat-icon>
+          </button>
           
           <a style="text-decoration: none;" href="assets/disbursements/{{committee.committee_id}}.csv" download>
-            <button [color]="'primary'" mat-button class="download-button">
-              <mat-icon>file_download</mat-icon>Download all disbursements
+            <button style="margin-top:1rem;" [color]="'primary'" mat-button class="download-button">
+              Download all disbursements <mat-icon>file_download</mat-icon>
             </button>
           </a>
         </div>
         
-        <button [color]="'primary'" class="card-action" mat-button (click)="committee.expanded = !committee.expanded">
-          Expand to see all spending
-          <mat-icon *ngIf="committee.expanded">expand_less</mat-icon>
-          <mat-icon *ngIf="!committee.expanded">expand_more</mat-icon>
-        </button>
+        
         
       </mat-card-content>
     </mat-card>
@@ -163,6 +165,18 @@ export class CommitteeCardComponent implements OnInit {
   ngOnInit() {
     this.redCats = this.committee.criteria.filter(x => x.color === 'red').sort((a, b) => a.sum > b.sum ? -1 : 1);
     this.tableData = new MatTableDataSource();
+    this.tableData.data = this.committee.criteria.sort((a,b) => a.sum > b.sum ? -1 : 1).slice(0,3);
+  }
+
+  ngOnExpand() {
+    if (this.committee.expanded)
+      this.tableData.data = this.committee.criteria.sort((a,b) => a.sum > b.sum ? -1 : 1).slice(0,3);
+    else
+      this.tableData.data = this.committee.criteria.sort((a,b) => a.sum > b.sum ? -1 : 1);
+    this.committee.expanded = !this.committee.expanded;
+  }
+
+  ngOnCollapse() {
     this.tableData.data = this.committee.criteria.sort((a,b) => a.sum > b.sum ? -1 : 1);
   }
 
