@@ -72,7 +72,7 @@ import { Store } from "@ngrx/store";
            }
            h1 {
               font-family: "Merriweather", serif;
-              font-size: calc(2.8vw * (1) + 24px);
+              font-size: calc(2.8vw * (1) + 20px);
               text-align: center;
               letter-spacing: -2.2px;
               max-width: 1000px;
