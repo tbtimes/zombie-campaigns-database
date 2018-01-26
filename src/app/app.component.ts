@@ -16,7 +16,7 @@ import { Store } from "@ngrx/store";
       <span class="link-to-story"><span class="zombie">Zombie</span> Campaigns</span>
     </mat-toolbar>
     <label>Interactive database</label>
-    <h1>See how the 102 "zombie" politicians spent their money</h1>
+    <h1>See how the<br>102 <span class="zombie">“zombie”</span> politicians<br>spent their money</h1>
     <p class="byline">
       <span class="dateline">Jan. 31, 2018</span>
       <span class="byline1">By TKTKTKTKTK, TKTKTKTKTK AND TKTKTKTKTK</span>
@@ -71,14 +71,19 @@ import { Store } from "@ngrx/store";
               font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
            }
            h1 {
-              font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-              font-size: calc(3vw * (1) + 27px);
+              font-family: "Merriweather", serif;
+              font-size: calc(2.8vw * (1) + 24px);
               text-align: center;
               letter-spacing: -2.2px;
               max-width: 1000px;
               margin-top: 0.5rem;
               margin-left: auto;
               margin-right: auto;
+              line-height: 1.3;
+            }
+            h1 .zombie {
+              color: darkgoldenrod;
+              text-transform: uppercase;
             }
             p {
               font-family: 'Merriweather', serif;
