@@ -12,10 +12,9 @@ import { MatTableDataSource } from "@angular/material";
     <mat-card class="committee-card">
       <div class="mobile-header">
           <mat-card-title>{{ committee.candidate_name }}</mat-card-title>
-          <mat-card-subtitle>{{ committee.committee_name }}</mat-card-subtitle>
+          <mat-card-subtitle><span class="sub">{{ committee.committee_name }}</span> <span class="sf sf-{{ committee.state_full.replace(' ', '-') | lowercase }}">{{ committee.state_full }}</span></mat-card-subtitle>
       </div>
       <div class="mat-card-side">
-        <h2>{{ committee.state_full }}</h2>
         <svg *ngIf="committee.mugshot === 'anonymous.png'" x="0px" y="0px" width="175px" height="175px"
            viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
         <style type="text/css">
@@ -45,7 +44,8 @@ import { MatTableDataSource } from "@angular/material";
       <mat-card-content>
         <mat-card-title-group style="width: 100%;">
           <mat-card-title>{{ committee.candidate_name }}</mat-card-title>
-          <mat-card-subtitle>{{ committee.committee_name }}</mat-card-subtitle>
+          <mat-card-subtitle><span class="sub">{{ committee.committee_name }}</span> <span class="sf sf-{{ committee.state_full.replace(' ', '-') | lowercase }}">{{ committee.state_full }}</span></mat-card-subtitle>
+          
         </mat-card-title-group>
         <div class="bio">
           <p>{{committee.bio}}</p>
@@ -90,7 +90,7 @@ import { MatTableDataSource } from "@angular/material";
       </mat-card-content>
     </mat-card>
   `,
-  styles: [`           
+  styles: [`
            .highlight {
                background-color: wheat;
            }
@@ -107,6 +107,17 @@ import { MatTableDataSource } from "@angular/material";
            }
            .mat-card-title-group {
               margin: 0;
+              display: block;
+           }
+           .mat-card-subtitle span.sub {
+              margin-right: 0.5rem;
+           }
+           .mat-card-subtitle span.sf{
+              border-radius: 3px;
+              background-color: darkgoldenrod;
+              color: white;
+              padding: 0.1rem 0.3rem;
+              white-space: nowrap;
            }
            .dates {
               font-size: 0.95rem;
@@ -128,6 +139,13 @@ import { MatTableDataSource } from "@angular/material";
               width: 430px;
            }
            @media (max-width: 720px) {
+              .mat-card-subtitle span.sub {
+                  display: block;
+                  margin-bottom: 1rem;
+              }
+              .mat-card-subtitle span.sf {
+                  padding: 0.3rem 0.5rem;
+              }
               .mobile-header {
                   display: block;
                   text-align: center;
