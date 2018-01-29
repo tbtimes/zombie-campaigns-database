@@ -6,7 +6,9 @@ export interface Committee {
   date_left_office: string;
   date_dead: string;
   date_last_election: string;
-  notes: string;
+  reax: string;
+  state_full: string;
+  office_state: string;
   candidate_name: string;
   committee_name: string;
   committee_id: string;

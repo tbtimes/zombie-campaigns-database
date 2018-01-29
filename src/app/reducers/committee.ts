@@ -16,6 +16,21 @@ export const initialState: State = {
   tags: []
 };
 
+function stateNameSort(a, b) {
+  const aState = a.state_full.toUpperCase();
+  const bState = b.state_full.toUpperCase();
+  const aName = a.candidate_name.toUpperCase();
+  const bName = b.candidate_name.toUpperCase();
+
+  if (aState < bState) return -1;
+  if (bState < aState) return 1;
+  if (aState === bState) {
+    if (aName < bName) return -1;
+    if (bName < aName) return 1;
+    return 0;
+  }
+}
+
 export function reducer(state = initialState, action: CommActions.CommitteeActions) {
   switch (action.type) {
     case CommActions.LOAD: {
@@ -25,8 +40,8 @@ export function reducer(state = initialState, action: CommActions.CommitteeActio
       return {
         ...state,
         isLoading: false,
-        committees: action.payload.committees,
-        filteredCommittees: action.payload.committees,
+        committees: action.payload.committees.sort(stateNameSort),
+        filteredCommittees: action.payload.committees.sort(stateNameSort),
         tags: action.payload.tags
       }
     }
@@ -39,14 +54,13 @@ export function reducer(state = initialState, action: CommActions.CommitteeActio
             if (tag.toLowerCase().includes(filterTerm.toLowerCase())) return true;
           }
           return false
-        })
+        }).sort(stateNameSort)
       }
     }
     case CommActions.RESET_FILTER: {
-      console.log("Resetting filter");
       return {
         ...state,
-        filteredCommittees: state.committees
+        filteredCommittees: state.committees.sort(stateNameSort)
       }
     }
     default: {

@@ -13,15 +13,17 @@ import { Store } from "@ngrx/store";
       <!-- This fills the remaining space of the current row -->
       <span class="example-fill-remaining-space"></span>
 
-      <span class="link-to-story"><span class="zombie">Zombie</span> Campaigns</span>
+      <a style="color: inherit" href=".."><span class="link-to-story"><span class="zombie">Zombie</span> Campaigns</span></a>
     </mat-toolbar>
     <label>Interactive database</label>
-    <h1>See how the<br>102 <span class="zombie">“zombie”</span> politicians<br>spent their money</h1>
+    <h1>See how the<br>102 <span class="zombie">‘zombie’</span> politicians<br>spent their money</h1>
     <p class="byline">
       <span class="dateline">Jan. 31, 2018</span>
-      <span class="byline1">By TKTKTKTKTK, TKTKTKTKTK AND TKTKTKTKTK</span>
+      <span class="byline1">By Eli Murray and Connie Humberg</span>
       <br>
-      <span class="byline2">Times/TKTKTK Staff</span>
+      <span class="byline1">Design by Neil Bedi</span>
+      <br>
+      <span class="byline2">Times Staff</span>
     </p>
     <p>Let's describe this amazing database. It has a search bar and a list of all of these people and all of their disbursements. Check out the highlighted rows.Let's describe this amazing database. It has a search bar and a list of all of these people and all of their disbursements. </p>
     <div class="content-well">
@@ -61,6 +63,8 @@ import { Store } from "@ngrx/store";
                //font-weight: 300;
                cursor: pointer;
                float: right;
+               font-weight: bold;
+               text-transform: uppercase;
            }
            label {
               color: darkgoldenrod;

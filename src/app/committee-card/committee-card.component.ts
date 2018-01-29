@@ -15,13 +15,14 @@ import { MatTableDataSource } from "@angular/material";
           <mat-card-subtitle>{{ committee.committee_name }}</mat-card-subtitle>
       </div>
       <div class="mat-card-side">
+        <h2>{{ committee.state_full }}</h2>
         <svg *ngIf="committee.mugshot === 'anonymous.png'" x="0px" y="0px" width="175px" height="175px"
            viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
         <style type="text/css">
           .st0{fill:#333333;}
           .st1{fill:none;}
         </style>
-        <path class="st0" d="M0,5.3v37.3C0,45.6,2.4,48,5.3,48h37.3c2.9,0,5.3-2.4,5.3-5.3V5.3C48,2.4,45.6,0,42.7,0H5.3C2.4,0,0,2.4,0,5.3z
+        <path style="opacity: .7;" class="st0" d="M0,5.3v37.3C0,45.6,2.4,48,5.3,48h37.3c2.9,0,5.3-2.4,5.3-5.3V5.3C48,2.4,45.6,0,42.7,0H5.3C2.4,0,0,2.4,0,5.3z
            M32,16c0,4.4-3.6,8-8,8s-8-3.6-8-8s3.6-8,8-8S32,11.6,32,16z M8,37.3c0-5.3,10.7-8.3,16-8.3s16,2.9,16,8.3V40H8V37.3z"/>
         <path class="st1" d="M0,0h48v48H0V0z"/>
         </svg>
@@ -49,6 +50,9 @@ import { MatTableDataSource } from "@angular/material";
         <div class="bio">
           <p>{{committee.bio}}</p>
         </div>
+        <div class="pol-reax" *ngIf="committee.reax">
+          {{ committee.reax }}
+        </div>
         
         <!--<ul class="toplines">-->
           <!--<li *ngFor="let crit of redCats">Spent {{ crit.sum | currency : 'USD'}} on {{ crit.category }}</li>-->
@@ -57,7 +61,7 @@ import { MatTableDataSource } from "@angular/material";
         <div class="data-table-expansion">
           <mat-table [dataSource]="tableData">
             <ng-container matColumnDef="category">
-              <mat-header-cell *matHeaderCellDef>Purpose</mat-header-cell>
+              <mat-header-cell *matHeaderCellDef>Type of spending</mat-header-cell>
               <mat-cell *matCellDef="let crit">{{ crit.category }}</mat-cell>
             </ng-container>
             <ng-container matColumnDef="sum">

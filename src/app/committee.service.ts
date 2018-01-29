@@ -12,8 +12,8 @@ export class CommitteeService {
 
   getCommittees(): Observable<{committees: Committee[], tags: string[]}> {
     return forkJoin([
-      this.http.get("/assets/all_tags.json"),
-      this.http.get("/assets/tags_by_comm.json")
+      this.http.get("assets/all_tags.json"),
+      this.http.get("assets/tags_by_comm.json")
     ])
       .map((data: any[])=> {
         return {
