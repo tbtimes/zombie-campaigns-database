@@ -19,7 +19,7 @@ import { Store } from "@ngrx/store";
     <h1>See how the<br>102 <span class="zombie">‘zombie’</span> politicians<br>spent their money</h1>
     <p class="byline">
       <span class="dateline">Jan. 31, 2018</span>
-      <span class="byline1">By Eli Murray and Connie Humberg</span>
+      <span class="byline1">By Eli Murray and Connie Humburg</span>
       <br>
       <span class="byline1">Design by Neil Bedi</span>
       <br>
@@ -29,6 +29,11 @@ import { Store } from "@ngrx/store";
     <div class="content-well">
       <router-outlet></router-outlet>
     </div>
+    <footer>
+      <div class="copyright">
+        ©2018 All Rights Reserved | <a href="//www.tampabay.com">Tampa&nbsp;Bay&nbsp;Times</a>
+      </div>
+    </footer>
   `,
   styles: [`
            .zombie {
@@ -117,6 +122,14 @@ import { Store } from "@ngrx/store";
             .byline1, .byline2 {
               clear: both;
               display: inline-block;
+            }
+            footer {
+              text-align: center;
+              font-family: Merriweather,Georgia,"Times New Roman",Times,serif;
+              color: gray;
+              margin: 3rem 1rem 3rem;
+              padding-top: 2rem;
+              border-top: thin solid lightgray;
             }
            `]
 })

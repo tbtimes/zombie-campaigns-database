@@ -51,6 +51,7 @@ import { MatTableDataSource } from "@angular/material";
           <p>{{committee.bio}}</p>
         </div>
         <div class="pol-reax" *ngIf="committee.reax">
+          <h2>In response to findings:</h2>
           {{ committee.reax }}
         </div>
         
@@ -137,6 +138,11 @@ import { MatTableDataSource } from "@angular/material";
            mat-card-content {
               display: inline-block;
               width: 430px;
+           }
+           .pol-reax h2 {
+              font-size: 1.2rem;
+              font-style: italic;
+              margin-bottom: 0.5rem;
            }
            @media (max-width: 720px) {
               .mat-card-subtitle span.sub {
