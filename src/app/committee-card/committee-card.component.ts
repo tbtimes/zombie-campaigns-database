@@ -48,7 +48,8 @@ import { MatTableDataSource } from "@angular/material";
           
         </mat-card-title-group>
         <div class="bio">
-          <p>{{committee.bio}}</p>
+          <p>{{ committee.bio }}</p>
+          <p>{{ committee.template_sentence }}</p>
         </div>
         <div class="pol-reax" *ngIf="committee.reax">
           <h2>In response to findings:</h2>
@@ -197,10 +198,12 @@ export class CommitteeCardComponent implements OnInit {
   }
 
   ngOnExpand() {
-    if (this.committee.expanded)
+    if (this.committee.expanded) {
       this.tableData.data = this.committee.criteria.sort((a,b) => a.sum > b.sum ? -1 : 1).slice(0,3);
-    else
+    } else {
       this.tableData.data = this.committee.criteria.sort((a,b) => a.sum > b.sum ? -1 : 1);
+    }
+
     this.committee.expanded = !this.committee.expanded;
   }
 

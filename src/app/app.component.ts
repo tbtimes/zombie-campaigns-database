@@ -25,7 +25,9 @@ import { Store } from "@ngrx/store";
       <br>
       <span class="byline2">Times Staff</span>
     </p>
-    <p>Let's describe this amazing database. It has a search bar and a list of all of these people and all of their disbursements. Check out the highlighted rows.Let's describe this amazing database. It has a search bar and a list of all of these people and all of their disbursements. </p>
+    <p>Reporters for the Tampa Bay Times and WTSP NewsChannel 10 used <a href="https://api.open.fec.gov/developers/">data from the Federal Election Commission</a> to build a database of 102 zombie campaigns — federal campaign accounts that were still spending money after their candidate left office, stopped campaigning, or in some cases, died.</p>
+    <p>You can <a download href="assets/all_tagged_disbursements.csv">download all of the data</a> or use this app to browse the zombie campaigns we've identified. You'll find examples of former politicians using campaign funds to pay their family, to finance their upscale lifestyles and social events, and to further their post-political careers –– whether they were formally registered as a lobbyist or not.</p>
+    <p style="font-size: .8em;"><em>In the interest of fairness, we did not include data within two years of a campaign's last election or the last time a politician held office. This was to give campaigns ample time to pay off debts, get out of leases, and end other contracts. We removed records that did not have a date, and did not tag tax payments, refunds, negative amounts, or disgorgements. We categorized payments according what the campaign listed as the disbursement description.</em></p>
     <div class="content-well">
       <router-outlet></router-outlet>
     </div>
