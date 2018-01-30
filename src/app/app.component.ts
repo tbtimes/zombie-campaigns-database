@@ -8,7 +8,20 @@ import { Store } from "@ngrx/store";
   selector: 'zc-root',
   template: `
     <mat-toolbar [color]="'primary'">
-      <img src="http://tampabay.com/projects/assets/tampabaytimes_white.svg"/>
+      <a class="header-logo-link" href="http://tampabay.com">
+        <img class="header-logo hidden-sm-down" src="http://tampabay.com/projects/assets/tampabaytimes_white.svg" alt="Tampa Bay Times">
+        <img class="header-logo hidden-md-up" src="http://tampabay.com/projects/assets/logo-t.svg" alt="Tampa Bay Times">
+      </a>
+
+      <a class="header-logo-link wtsp" href="http://www.tegna.com/">
+        <img class="header-logo hidden-sm-down" src="assets/tegna-inc-logo.png" alt="Tegna">
+        <img class="header-logo hidden-md-up" src="assets/tegna-inc-logo.png" alt="Tegna">
+      </a>
+
+      <a class="header-logo-link" href="http://www.wtsp.com/">
+        <img class="header-logo hidden-sm-down" src="assets/site-nav-logo@2x.png" alt="WTSP">
+        <img class="header-logo hidden-md-up" src="assets/site-nav-logo@2x.png" alt="WTSP">
+      </a>
 
       <!-- This fills the remaining space of the current row -->
       <span class="example-fill-remaining-space"></span>
@@ -27,7 +40,8 @@ import { Store } from "@ngrx/store";
     </p>
     <p>Reporters for the Tampa Bay Times and WTSP NewsChannel 10 used <a href="https://api.open.fec.gov/developers/">data from the Federal Election Commission</a> to build a database of 102 zombie campaigns — federal campaign accounts that were still spending money after their candidate left office, stopped campaigning, or in some cases, died.</p>
     <p>You can <a download href="assets/all_tagged_disbursements.csv">download all of the data</a> or use this app to browse the zombie campaigns we've identified. You'll find examples of former politicians using campaign funds to pay their family, to finance their upscale lifestyles and social events, and to further their post-political careers –– whether they were formally registered as a lobbyist or not.</p>
-    <p style="font-size: .8em;"><em>In the interest of fairness, we did not include data within two years of a campaign's last election or the last time a politician held office. This was to give campaigns ample time to pay off debts, get out of leases, and end other contracts. We removed records that did not have a date, and did not tag tax payments, refunds, negative amounts, or disgorgements. We categorized payments according what the campaign listed as the disbursement description.</em></p>
+    <p>Read the full story <a href="..">here</a>.</p>
+    <p style="font-size: .9em;margin-top: 2rem;"><em>In the interest of fairness, we did not include data within two years of a campaign's last election or the last time a politician held office. This was to give campaigns ample time to pay off debts, get out of leases, and end other contracts. We removed records that did not have a date, and did not tag tax payments, refunds, negative amounts, or disgorgements. We categorized payments according what the campaign listed as the disbursement description.</em></p>
     <div class="content-well">
       <router-outlet></router-outlet>
     </div>
@@ -45,15 +59,36 @@ import { Store } from "@ngrx/store";
               background: url('assets/charcoal2.jpg');
               overflow: hidden;
            }
+           .mat-toolbar a {
+              text-decoration: none;
+           }
            .mat-toolbar img {
               height: 28px;
+              margin-right: 0.5rem;
            }
-           @media(max-width: 450px) {
+           .mat-toolbar .hidden-md-up {
+              display: none;
+            }
+            .mat-toolbar .hidden-sm-down {
+              display: inline-block;
+            }
+           @media(max-width: 650px) {
+              .mat-toolbar .hidden-md-up {
+                display: inline-block;
+              }
+              .mat-toolbar .hidden-sm-down {
+                display: none;
+              }
               .mat-toolbar img {
                 height: 20px;
               }
               .link-to-story {
                 font-size: 14px;
+              }
+           }
+           @media(max-width: 430px) {
+              .link-to-story {
+                display: none;
               }
            }
            .content-well {
