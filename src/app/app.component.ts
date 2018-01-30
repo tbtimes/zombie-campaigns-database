@@ -143,6 +143,7 @@ import { Store } from "@ngrx/store";
               margin-bottom: 1em;
               max-width: 690px;
               padding: 0 1rem;
+              color: #373a3c;
             }
             .dateline {
               font-weight: normal;
