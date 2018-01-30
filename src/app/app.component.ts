@@ -25,13 +25,16 @@ import { Store } from "@ngrx/store";
       <br>
       <span class="byline2">Times Staff</span>
     </p>
-    <p>Reporters for the Tampa Bay Times and WTSP NewsChannel 10 used <a href="https://api.open.fec.gov/developers/">data from the Federal Election Commission</a> to build a database of 102 zombie campaigns — federal campaign accounts that were still spending money after their candidate left office, stopped campaigning, or in some cases, died.</p>
-    <p>You can <a download href="assets/all_tagged_disbursements.csv">download all of the data</a> or use this app to browse the zombie campaigns we've identified. You'll find examples of former politicians using campaign funds to pay their family, to finance their upscale lifestyles and social events, and to further their post-political careers –– whether they were formally registered as a lobbyist or not.</p>
-    <p style="font-size: .8em;"><em>In the interest of fairness, we did not include data within two years of a campaign's last election or the last time a politician held office. This was to give campaigns ample time to pay off debts, get out of leases, and end other contracts. We removed records that did not have a date, and did not tag tax payments, refunds, negative amounts, or disgorgements. We categorized payments according what the campaign listed as the disbursement description.</em></p>
+
+    <p>Reporters for the Tampa Bay Times and WTSP NewsChannel 10 used <a href="https://api.open.fec.gov/developers/" target="_blank">data from the Federal Election Commission</a> to build a database of 102 zombie campaigns — federal campaign accounts that were still spending money years after their candidate left office, stopped campaigning, or in some cases, died.</p>
+    <p>You can <a href="assets/all_tagged_disbursements.csv">download all of the data</a> or use this app to browse the zombie campaigns we identified. You’ll find examples of former politicians using campaign funds to pay their family, to finance their upscale lifestyles and social events and to boost their post-political careers.</p>
+    <p>In the interest of fairness, our database does not include spending within two years of a politician’s last election or retirement from elected office.  This was to give campaigns ample time to pay off debts, get out of leases and end other contracts. It also does not include spending after Sept. 30, 2017. As a result, the totals listed here may be lower than the sums described in other parts of our coverage. We categorized payments according to the campaign’s listed disbursement description. <a href="">Click here for more notes on our methodology.</a></p>
+
     <div class="content-well">
       <router-outlet></router-outlet>
     </div>
     <footer>
+      <p style="font-size: .8em"><em>Politician mugshots in the database were sourced from the <a href="http://bioguide.congress.gov/biosearch/biosearch.asp">Biographical Directory of the United States of Congress</a>.</em></p>
       <div class="copyright">
         ©2018 All Rights Reserved | <a href="//www.tampabay.com">Tampa&nbsp;Bay&nbsp;Times</a>
       </div>
