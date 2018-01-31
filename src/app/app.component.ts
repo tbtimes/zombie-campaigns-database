@@ -42,7 +42,7 @@ import { Store } from "@ngrx/store";
     <p>Reporters for the <em>Tampa Bay Times</em> and <em>WTSP NewsChannel 10</em> used <a href="https://api.open.fec.gov/developers/" target="_blank">data from the Federal Election Commission</a> to build a database of 102 zombie campaigns — federal campaigns that were still spending money years after their candidate left office, stopped campaigning, or in some cases, died.</p>
     <p>You can <a href="assets/all_tagged_disbursements.csv">download all of the data</a> or use this app to browse the zombie campaigns we identified.</p>
     <p>Our database does not include spending within two years of a politician’s last election or retirement from elected office, assuming the politician is alive. It also does not include spending after Sept. 30, 2017. As a result, the totals listed here may be lower than the sums described in other parts of our coverage.</p>
-    <p><a href="..">Click here</a> to read the story,</p> and <a href="../#methodology"> here for more notes on our methodology.</a></p>
+    <p><a href="..">Click here</a> to read the story, and <a href="../#methodology"> here for more notes on our methodology.</a></p>
 
 
     <div class="content-well">
@@ -177,7 +177,8 @@ import { Store } from "@ngrx/store";
 })
 export class AppComponent implements OnInit {
 
-  constructor(private store: Store<reducers.State>) {}
+  constructor(private store: Store<reducers.State>) {
+  }
 
   ngOnInit() {}
 }
