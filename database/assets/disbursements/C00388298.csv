@@ -1,0 +1,48 @@
+committee_id,candidate_name,state_full,disbursement_date,disbursement_description,disbursement_amount,recipient_name,pdf_url,sub_id,two_years_after_office,two_years_after_last_election,after_death,TIMES_CATEGORY
+C00388298,"KNOWLES, TONY",Alaska,2009-01-24 00:00:00,POST OFFICE BOX RENTAL,132.0,UNITED STATES POSTAL SERVICE,http://docquery.fec.gov/cgi-bin/fecimg/?29020170969,2042720091114263763,True,True,False,office: postage/shipping
+C00388298,"KNOWLES, TONY",Alaska,2009-01-31 00:00:00,BANK FEE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?29020170968,2042720091114263759,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2009-02-25 00:00:00,LEGAL SERVICES,135.0,PERKINS COIE,http://docquery.fec.gov/cgi-bin/fecimg/?29020170969,2042720091114263762,True,True,False,legal expenses
+C00388298,"KNOWLES, TONY",Alaska,2009-02-28 00:00:00,BANK FEE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?29020170968,2042720091114263760,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2009-03-31 00:00:00,BANK FEE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?29020170968,2042720091114263761,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2009-05-03 00:00:00,BANK FEES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?29020281732,2073120091117217871,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2009-06-03 00:00:00,BANK FEES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?29020281733,2073120091117217872,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2009-06-18 00:00:00,SALARY,4000.0,"MOXNESS, DIANE D MS",http://docquery.fec.gov/cgi-bin/fecimg/?29020281732,2073120091117217869,True,True,False,payroll
+C00388298,"KNOWLES, TONY",Alaska,2007-04-30 00:00:00,SERVICE CHARGE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020264234,2073020071079077608,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2009-06-18 00:00:00,SALARY,4000.0,"RIDLE, LESLIE MS",http://docquery.fec.gov/cgi-bin/fecimg/?29020281733,2073120091117217874,True,True,False,payroll
+C00388298,"KNOWLES, TONY",Alaska,2009-06-18 00:00:00,DISTRIBUTION OF REMAINING FUNDS,20000.0,ALASKA DEMOCRATIC PARTY,http://docquery.fec.gov/cgi-bin/fecimg/?29020281735,2073120091117217876,True,True,False,political contribution
+C00388298,"KNOWLES, TONY",Alaska,2009-06-18 00:00:00,CONTRIBUTION,4000.0,BEGICH 2014,http://docquery.fec.gov/cgi-bin/fecimg/?29020281735,2073120091117217877,True,True,False,political contribution
+C00388298,"KNOWLES, TONY",Alaska,2009-06-18 00:00:00,CONTRIBUTION,5000.0,GREAT LAND TRUST PAC,http://docquery.fec.gov/cgi-bin/fecimg/?29020281735,2073120091117217878,True,True,False,political contribution
+C00388298,"KNOWLES, TONY",Alaska,2009-07-13 00:00:00,BANK FEES,7.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?29020281743,2073120091117217879,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2009-07-13 00:00:00,DISTRIBUTION OF REMAINING FUNDS,4657.0,ALASKA DEMOCRATIC PARTY,http://docquery.fec.gov/cgi-bin/fecimg/?29020281744,2073120091117217880,True,True,False,political contribution
+C00388298,"KNOWLES, TONY",Alaska,2007-01-01 00:00:00,LEGAL SERVICES,127.0,"COIE, PERKINS",http://docquery.fec.gov/cgi-bin/fecimg/?27020162494,2051420071077291853,True,True,False,legal expenses
+C00388298,"KNOWLES, TONY",Alaska,2007-01-05 00:00:00,BANK FEES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020162493,2051420071077291850,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2007-02-05 00:00:00,BANK FEES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020162493,2051420071077291851,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2007-03-26 00:00:00,LEGAL SERVICES,1620.0,"COIE, PERKINS",http://docquery.fec.gov/cgi-bin/fecimg/?27020162494,2051420071077291854,True,True,False,legal expenses
+C00388298,"KNOWLES, TONY",Alaska,2007-03-31 00:00:00,BANK FEES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020162493,2051420071077291852,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2007-05-04 00:00:00,LEGAL SERVICES,128.0,PERKINS COIE,http://docquery.fec.gov/cgi-bin/fecimg/?27020264235,2073020071079077611,True,True,False,legal expenses
+C00388298,"KNOWLES, TONY",Alaska,2007-05-31 00:00:00,SERVICE CHARGE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020264234,2073020071079077609,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2007-06-18 00:00:00,LEGAL SERVICES,534.0,PERKINS COIE,http://docquery.fec.gov/cgi-bin/fecimg/?27020264235,2073020071079077612,True,True,False,legal expenses
+C00388298,"KNOWLES, TONY",Alaska,2007-06-30 00:00:00,SERVICE CHARGE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020264234,2073020071079077610,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2007-07-31 00:00:00,BANK CHARGES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020353482,2102520071081963219,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2007-08-31 00:00:00,BANK CHARGES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020353482,2102520071081963220,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2007-09-30 00:00:00,BANK CHARGES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020353482,2102520071081963221,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2007-10-05 00:00:00,BANK FEE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020012661,2013020081083817597,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2007-11-06 00:00:00,BANK FEE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020012661,2013020081083817598,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2007-12-06 00:00:00,BANK FEE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020012661,2013020081083817599,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2008-01-04 00:00:00,REIMBURSEMENT FOR POSTAL BOX RENTAL,128.0,"RIDLE, LESLIE MS",http://docquery.fec.gov/cgi-bin/fecimg/?28020131144,2041620081087535726,True,True,False,office: postage/shipping
+C00388298,"KNOWLES, TONY",Alaska,2008-01-04 00:00:00,POST OFFICE BOX RENTAL,128.0,UNITED STATES POSTAL SERVICE,http://docquery.fec.gov/cgi-bin/fecimg/?28020131144,2041620081087535727,True,True,False,office: postage/shipping
+C00388298,"KNOWLES, TONY",Alaska,2008-01-31 00:00:00,BANK FEE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020131143,2041620081087535722,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2008-02-28 00:00:00,BANK FEE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020131143,2041620081087535723,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2008-03-30 00:00:00,BANK FEE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020131143,2041620081087535724,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2008-03-30 00:00:00,LEGAL SERVICES,629.0,PERKINS COIE,http://docquery.fec.gov/cgi-bin/fecimg/?28020131144,2041620081087535725,True,True,False,legal expenses
+C00388298,"KNOWLES, TONY",Alaska,2008-05-31 00:00:00,BANK CHARGE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020400800,2080720081093243081,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2008-06-30 00:00:00,BANK CHARGE,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020400800,2080720081093243082,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2008-07-07 00:00:00,LEGAL SERVICES,3500.0,PERKINS COIE,http://docquery.fec.gov/cgi-bin/fecimg/?28020692985,2111220081100685532,True,True,False,legal expenses
+C00388298,"KNOWLES, TONY",Alaska,2008-07-31 00:00:00,BANK CHARGES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020692984,2111220081100685529,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2008-08-31 00:00:00,BANK CHARGES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020692984,2111220081100685530,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2008-09-30 00:00:00,BANK CHARGES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020692985,2111220081100685531,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2006-11-30 00:00:00,BANK FEES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020044235,2021520071075348360,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2008-07-01 00:00:00,BANK CHARGES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?28020692984,2111220081100685528,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2006-12-31 00:00:00,BANK FEES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?27020044235,2021520071075348361,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2009-04-03 00:00:00,BANK FEES,5.0,NORTHRIM BANK,http://docquery.fec.gov/cgi-bin/fecimg/?29020281732,2073120091117217870,True,True,False,bank fees
+C00388298,"KNOWLES, TONY",Alaska,2009-04-12 00:00:00,LEGAL SERVICES,3879.0,PERKINS COIE,http://docquery.fec.gov/cgi-bin/fecimg/?29020281733,2073120091117217873,True,True,False,legal expenses

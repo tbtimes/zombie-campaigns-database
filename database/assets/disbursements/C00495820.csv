@@ -1,0 +1,110 @@
+committee_id,candidate_name,state_full,disbursement_date,disbursement_description,disbursement_amount,recipient_name,pdf_url,sub_id,two_years_after_office,two_years_after_last_election,after_death,TIMES_CATEGORY
+C00495820,"PAUL, RON",Texas,2015-01-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?15970328193,4040620151241697688,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-01-15 00:00:00,SALARY,556.94,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?15970328193,4040620151241697689,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-01-22 00:00:00,CONTRIBUTION,5000.0,LIBERTY PAC,http://docquery.fec.gov/cgi-bin/fecimg/?15970328202,4040620151241697713,True,True,False,political contribution
+C00495820,"PAUL, RON",Texas,2015-01-28 00:00:00,POSTAGE/SHIPPING EXPENSE,6.98,U.S. POSTMASTER,http://docquery.fec.gov/cgi-bin/fecimg/?15970328194,4040620151241697692,True,True,False,office: postage/shipping
+C00495820,"PAUL, RON",Texas,2015-01-30 00:00:00,ACCOUNTING,18.75,"PAUL, PHIPPS & CO. PLLC",http://docquery.fec.gov/cgi-bin/fecimg/?15970328194,4040620151241697693,True,True,False,accounting/compliance/tax prep
+C00495820,"PAUL, RON",Texas,2015-01-30 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?15970328195,4040620151241697694,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-01-30 00:00:00,SALARY,556.94,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?15970328195,4040620151241697695,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-02-03 00:00:00,POSTAGE/SHIPPING EXPENSE,34.5,FEDERAL EXPRESS,http://docquery.fec.gov/cgi-bin/fecimg/?15970328196,4040620151241697697,True,True,False,office: postage/shipping
+C00495820,"PAUL, RON",Texas,2015-02-04 00:00:00,CONSULTING-LEGAL,20000.0,"HARVEY & BINNALL, PLLC",http://docquery.fec.gov/cgi-bin/fecimg/?15970328196,4040620151241697698,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-02-13 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?15970328196,4040620151241697699,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-02-13 00:00:00,SALARY,556.94,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?15970328197,4040620151241697700,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-02-27 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?15970328197,4040620151241697702,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-02-27 00:00:00,SALARY,556.94,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?15970328198,4040620151241697703,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-03-09 00:00:00,CONSULTING-LEGAL,4174.0,ANDREWS KURTH LLP,http://docquery.fec.gov/cgi-bin/fecimg/?15970328198,4040620151241697705,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-03-13 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?15970328199,4040620151241697706,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-03-13 00:00:00,SALARY,556.95,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?15970328199,4040620151241697707,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-03-16 00:00:00,CONSULTING-LEGAL,25430.19,LECLAIR RYAN,http://docquery.fec.gov/cgi-bin/fecimg/?15970328199,4040620151241697708,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-03-31 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?15970328200,4040620151241697710,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-03-31 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?15970328200,4040620151241697711,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-04-09 00:00:00,CONSULTING-LEGAL,1162.0,AKERMAN LLP,http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055820,4070520151245979107,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-04-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055820,4070520151245979108,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-04-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055820,4070520151245979109,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-04-21 00:00:00,CONSULTING-LEGAL,7300.0,LECLAIR RYAN,http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055821,4070520151245979111,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-04-21 00:00:00,CONSULTING-LEGAL,9283.33,LECLAIR RYAN,http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055821,4070520151245979112,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-04-30 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055822,4070520151245979113,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-04-30 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055822,4070520151245979114,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-05-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055823,4070520151245979118,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-05-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055824,4070520151245979119,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-05-29 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055824,4070520151245979120,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-05-29 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055824,4070520151245979121,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-06-08 00:00:00,CONSULTING-LEGAL,5015.69,LECLAIR RYAN,http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055825,4070520151245979123,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-06-12 00:00:00,CONSULTING-LEGAL,2863.5,BARNES & THORNBURG LLP,http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055825,4070520151245979124,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-06-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055826,4070520151245979125,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-06-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055826,4070520151245979126,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-06-30 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055826,4070520151245979127,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-06-30 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201507059000055827,4070520151245979128,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-07-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816891,4100720151255461602,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-07-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816891,4100720151255461603,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-07-20 00:00:00,CONSULTING-LEGAL,27702.8,BARNES & THORNBURG LLP,http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816891,4100720151255461604,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-07-31 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816892,4100720151255461605,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-07-31 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816892,4100720151255461606,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-08-14 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816893,4100720151255461609,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-08-14 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816893,4100720151255461610,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-08-31 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816894,4100720151255461611,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-08-31 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816894,4100720151255461612,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-09-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816895,4100720151255461614,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-09-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816895,4100720151255461615,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-09-18 00:00:00,CONSULTING-LEGAL,1326.0,WEBSTER BOOK LLP,http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816895,4100720151255461616,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-09-29 00:00:00,CONSULTING-LEGAL,120861.16,LECLAIR RYAN,http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816896,4100720151255461617,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-09-30 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816896,4100720151255461618,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-09-30 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201510079002816896,4100720151255461619,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-10-06 00:00:00,CONSULTING-LEGAL,152.52,CT CORPORATION,http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482112,4011320161260573935,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-10-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482112,4011320161260573936,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-10-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482112,4011320161260573937,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-10-16 00:00:00,COMPUTER SOFTWARE,1100.0,FILPAC LLC,http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482113,4011320161260573938,True,True,False,campaign software
+C00495820,"PAUL, RON",Texas,2015-10-30 00:00:00,CONSULTING-LEGAL,14096.0,WEBSTER BOOK LLP,http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482113,4011320161260573940,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-10-30 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482114,4011320161260573941,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-10-30 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482114,4011320161260573942,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-11-16 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482115,4011320161260573944,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-11-16 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482115,4011320161260573945,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-11-23 00:00:00,CONSULTING-LEGAL,346.47,LECLAIR RYAN,http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482115,4011320161260573946,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2015-11-30 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482116,4011320161260573947,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-11-30 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482116,4011320161260573948,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-12-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482117,4011320161260573950,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-12-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482117,4011320161260573951,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2015-12-30 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482117,4011320161260573952,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2015-12-30 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201601139004482118,4011320161260573953,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-01-05 00:00:00,CONSULTING-LEGAL,9872.6,WEBSTER BOOK LLP,http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220960,4040520161282555780,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2016-01-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220960,4040520161282555781,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-01-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220960,4040520161282555782,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-01-21 00:00:00,ACCOUNTING,18.75,"PAUL, PHIPPS & CO. PLLC",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220961,4040520161282555783,True,True,False,accounting/compliance/tax prep
+C00495820,"PAUL, RON",Texas,2016-01-25 00:00:00,POSTAGE/SHIPPING EXPENSE,7.23,U.S. POSTMASTER,http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220961,4040520161282555784,True,True,False,office: postage/shipping
+C00495820,"PAUL, RON",Texas,2016-01-29 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220961,4040520161282555785,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-01-29 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220962,4040520161282555786,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-02-12 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220962,4040520161282555788,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-02-12 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220963,4040520161282555789,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-02-29 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220963,4040520161282555790,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-02-29 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220963,4040520161282555791,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-03-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220964,4040520161282555793,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-03-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220964,4040520161282555794,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-03-31 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220965,4040520161282555795,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-03-31 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201604049012220965,4040520161282555796,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-04-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413379,4071320161306562451,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-04-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413379,4071320161306562453,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-04-29 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413379,4071320161306562455,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-04-29 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413380,4071320161306562457,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-05-13 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413381,4071320161306562465,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-05-13 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413381,4071320161306562467,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-05-31 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413382,4071320161306562469,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-05-31 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413382,4071320161306562471,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-06-08 00:00:00,CONSULTING-LEGAL,18783.75,WEBSTER BOOK LLP,http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413383,4071320161306562475,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2016-06-14 00:00:00,CONTRIBUTION,30000.0,F.R.E.E.,http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413385,4071320161306562485,True,True,False,political contribution
+C00495820,"PAUL, RON",Texas,2016-06-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413383,4071320161306562477,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-06-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413383,4071320161306562479,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-06-30 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413384,4071320161306562481,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-06-30 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201607129020413384,4071320161306562483,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-07-15 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201610109032222672,4101220161340826374,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-07-15 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201610109032222672,4101220161340826376,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-07-29 00:00:00,SALARY,600.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201610109032222673,4101220161340826382,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2016-07-29 00:00:00,SALARY,315.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201610109032222674,4101220161340826384,True,True,False,payroll: to family
+C00495820,"PAUL, RON",Texas,2016-08-11 00:00:00,CONSULTING-LEGAL,158.96,CT CORPORATION,http://docquery.fec.gov/cgi-bin/fecimg/?201610109032222674,4101220161340826388,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2016-09-12 00:00:00,CONSULTING-LEGAL,1106.5,AKERMAN LLP,http://docquery.fec.gov/cgi-bin/fecimg/?201610109032222675,4101220161340826390,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2017-01-05 00:00:00,COMPUTER SOFTWARE,480.0,FILPAC LLC,http://docquery.fec.gov/cgi-bin/fecimg/?201704049051986950,4040520171393169952,True,True,False,campaign software
+C00495820,"PAUL, RON",Texas,2017-01-30 00:00:00,POSTAGE/SHIPPING EXPENSE,7.08,U.S. POSTMASTER,http://docquery.fec.gov/cgi-bin/fecimg/?201704049051986950,4040520171393169954,True,True,False,office: postage/shipping
+C00495820,"PAUL, RON",Texas,2017-01-31 00:00:00,ACCOUNTING,18.75,"PAUL, PHIPPS & CO. PLLC",http://docquery.fec.gov/cgi-bin/fecimg/?201704049051986950,4040520171393169956,True,True,False,accounting/compliance/tax prep
+C00495820,"PAUL, RON",Texas,2017-03-06 00:00:00,CONSULTING-LEGAL,740.0,AKERMAN LLP,http://docquery.fec.gov/cgi-bin/fecimg/?201704049051986951,4040520171393169958,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2017-08-01 00:00:00,CONSULTING-LEGAL,160.57,CT CORPORATION,http://docquery.fec.gov/cgi-bin/fecimg/?201710099075584768,4101120171458188905,True,True,False,legal expenses
+C00495820,"PAUL, RON",Texas,2017-09-12 00:00:00,SALARY,4200.0,"WATTS, DEANA M.",http://docquery.fec.gov/cgi-bin/fecimg/?201710099075584768,4101120171458188907,True,True,False,payroll
+C00495820,"PAUL, RON",Texas,2017-09-12 00:00:00,SALARY,4200.0,"PYEATT, LORI",http://docquery.fec.gov/cgi-bin/fecimg/?201710099075584768,4101120171458188909,True,True,False,payroll: to family
