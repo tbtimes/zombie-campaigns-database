@@ -32,9 +32,9 @@ import { Store } from "@ngrx/store";
     <h1>See how the<br>102 <span class="zombie">‘zombie’</span> politicians<br>spent their money</h1>
     <p class="byline">
       <span class="dateline">Jan. 31, 2018</span>
-      <span class="byline1">By Eli Murray and Connie Humburg</span>
+      <span class="byline1">By ELI MURRAY AND CONNIE HUMBURG</span>
       <br>
-      <span class="byline1">Design by Neil Bedi</span>
+      <span class="byline1">Design by NEIL BEDI</span>
       <br>
       <span class="byline2">Times Staff</span>
     </p>
