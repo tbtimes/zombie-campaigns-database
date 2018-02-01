@@ -67,8 +67,8 @@ import { MatTableDataSource } from "@angular/material";
               <mat-cell *matCellDef="let crit">{{ crit.category }}</mat-cell>
             </ng-container>
             <ng-container matColumnDef="sum">
-              <mat-header-cell *matHeaderCellDef>Total spent</mat-header-cell>
-              <mat-cell *matCellDef="let crit">{{ crit.sum | currency : 'USD' : 'symbol' : '1.0-0' }}</mat-cell>
+              <mat-header-cell style="text-align: right;" *matHeaderCellDef>Total spent</mat-header-cell>
+              <mat-cell style="text-align: right;" *matCellDef="let crit">{{ crit.sum | currency : 'USD' : 'symbol' : '1.0-0' }}</mat-cell>
             </ng-container>
             <mat-header-row *matHeaderRowDef="['category', 'sum']"></mat-header-row>
             <mat-row [ngClass]="{'highlight': crit.color === 'red'}" *matRowDef="let crit; columns: ['category', 'sum']"></mat-row>
