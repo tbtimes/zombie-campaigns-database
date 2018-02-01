@@ -43,6 +43,7 @@ import { Store } from "@ngrx/store";
     <p>You can <a href="assets/all_tagged_disbursements.csv">download all of the data</a> or use this app to browse the zombie campaigns we identified.</p>
     <p>Our database does not include spending within two years of a politician’s last election or retirement from elected office, assuming the politician is alive. It also does not include spending after Sept. 30, 2017. As a result, the totals listed here may be lower than the sums described in other parts of our coverage.</p>
     <p><a href="..">Click here</a> to read the story, and <a href="../#methodology"> here for more notes on our methodology.</a></p>
+    <p><em>This database has been updated since it was initially published to include additional information about former Rep. Brian Baird. Last update: Feb. 1.</em></p>
 
 
     <div class="content-well">
