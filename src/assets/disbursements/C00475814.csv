@@ -1,4 +1,5 @@
 committee_id,candidate_name,state_full,disbursement_date,disbursement_description,disbursement_amount,recipient_name,pdf_url,sub_id,two_years_after_office,two_years_after_last_election,after_death,TIMES_CATEGORY
+C00475814,"PERRY, JEFFREY DAVIS",Massachusetts,2014-02-10 00:00:00,ACCOUNTING,175.0,RANDY HUNT CPA PC,http://docquery.fec.gov/cgi-bin/fecimg/?14960683143,4060620141214546333,True,True,False,accounting/compliance/tax prep
 C00475814,"PERRY, JEFFREY DAVIS",Massachusetts,2013-01-09 00:00:00,OFFICE SUPPLIES,500.0,FILPAC LLC,http://docquery.fec.gov/cgi-bin/fecimg/?13940542868,4041920131187641793,True,True,False,office: supplies
 C00475814,"PERRY, JEFFREY DAVIS",Massachusetts,2013-01-10 00:00:00,ACCOUNTING,175.0,RANDY HUNT CPA PC,http://docquery.fec.gov/cgi-bin/fecimg/?13940542868,4041920131187641794,True,True,False,accounting/compliance/tax prep
 C00475814,"PERRY, JEFFREY DAVIS",Massachusetts,2013-02-11 00:00:00,ACCOUNTING,200.0,RANDY HUNT CPA PC,http://docquery.fec.gov/cgi-bin/fecimg/?13940542868,4041920131187641795,True,True,False,accounting/compliance/tax prep
@@ -61,4 +62,3 @@ C00475814,"PERRY, JEFFREY DAVIS",Massachusetts,2012-12-04 00:00:00,ACCOUNTING,17
 C00475814,"PERRY, JEFFREY DAVIS",Massachusetts,2012-12-04 00:00:00,CONTRIBUTION,300.0,"THE EARTHLODGE, INC.",http://docquery.fec.gov/cgi-bin/fecimg/?13940023851,4011520131178897807,False,True,False,charitable donation
 C00475814,"PERRY, JEFFREY DAVIS",Massachusetts,2012-12-04 00:00:00,IN-KIND CONTRIBUTION FOR CC CHILDREN'S,1646.47,CURLEY DIRECT MAIL,http://docquery.fec.gov/cgi-bin/fecimg/?13940023851,4011520131178897808,False,True,False,charitable donation
 C00475814,"PERRY, JEFFREY DAVIS",Massachusetts,2012-12-20 00:00:00,IN-KIND CONTRIBUTION FOR CC CHILDREN'S,1874.75,CAPE CODDER RESORT AND CONFERENCE CENTER,http://docquery.fec.gov/cgi-bin/fecimg/?13940023852,4011520131178897809,False,True,False,charitable donation
-C00475814,"PERRY, JEFFREY DAVIS",Massachusetts,2014-02-10 00:00:00,ACCOUNTING,175.0,RANDY HUNT CPA PC,http://docquery.fec.gov/cgi-bin/fecimg/?14960683143,4060620141214546333,True,True,False,accounting/compliance/tax prep

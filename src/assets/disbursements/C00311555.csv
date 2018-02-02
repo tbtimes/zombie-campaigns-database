@@ -1,4 +1,5 @@
 committee_id,candidate_name,state_full,disbursement_date,disbursement_description,disbursement_amount,recipient_name,pdf_url,sub_id,two_years_after_office,two_years_after_last_election,after_death,TIMES_CATEGORY
+C00311555,"ETHERIDGE, BOB",North Carolina,2014-09-02 00:00:00,BANK SERVICE CHARGE,2.0,PNC BANK,http://docquery.fec.gov/cgi-bin/fecimg/?14978185923,4101420141226067452,True,True,False,bank fees
 C00311555,"ETHERIDGE, BOB",North Carolina,2013-02-08 00:00:00,NON-FEDERAL CONTRIBUTION,500.0,COMMITTEE TO ELECT KEN GOODMAN,http://docquery.fec.gov/cgi-bin/fecimg/?13961284885,4042520131188367455,True,True,False,political contribution
 C00311555,"ETHERIDGE, BOB",North Carolina,2013-02-14 00:00:00,PRINTER TONER,85.39,STAPLES,http://docquery.fec.gov/cgi-bin/fecimg/?13961284884,4042520131188367454,True,True,False,office: supplies
 C00311555,"ETHERIDGE, BOB",North Carolina,2013-02-14 00:00:00,NON-FEDERAL CONTRIBUTION,250.0,HARNETT COUNTY DEMOCRATIC MEN'S CLUB,http://docquery.fec.gov/cgi-bin/fecimg/?13961284885,4042520131188367456,True,True,False,political contribution
@@ -63,4 +64,3 @@ C00311555,"ETHERIDGE, BOB",North Carolina,2016-07-29 00:00:00,COMPLIANCE SERVICE
 C00311555,"ETHERIDGE, BOB",North Carolina,2017-02-09 00:00:00,COMPLIANCE SERVICES,450.0,"BLUE WAVE POLITICAL PARTNERS, LLC",http://docquery.fec.gov/cgi-bin/fecimg/?201704119052079276,4041220171398512404,True,True,False,accounting/compliance/tax prep
 C00311555,"ETHERIDGE, BOB",North Carolina,2017-04-17 00:00:00,CONTRIBUTION,5000.0,UPPER MIDWEST WOMEN VICTORY FUND,http://docquery.fec.gov/cgi-bin/fecimg/?201707149066657229,4072420171429496792,True,True,False,political contribution
 C00311555,"ETHERIDGE, BOB",North Carolina,2017-07-11 00:00:00,CONTRIBUTION,650.0,HARNETT COUNTY DEMOCRATIC PARTY,http://docquery.fec.gov/cgi-bin/fecimg/?201710109075594298,4101020171458171756,True,True,False,political contribution
-C00311555,"ETHERIDGE, BOB",North Carolina,2014-09-02 00:00:00,BANK SERVICE CHARGE,2.0,PNC BANK,http://docquery.fec.gov/cgi-bin/fecimg/?14978185923,4101420141226067452,True,True,False,bank fees

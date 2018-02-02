@@ -1,4 +1,6 @@
 committee_id,candidate_name,state_full,disbursement_date,disbursement_description,disbursement_amount,recipient_name,pdf_url,sub_id,two_years_after_office,two_years_after_last_election,after_death,TIMES_CATEGORY
+C00393512,"CHANDLER, A.B. III",Kentucky,2016-04-04 00:00:00,STORAGE FACILITY,147.96,STORAGE MART,http://docquery.fec.gov/cgi-bin/fecimg/?201607119020395060,4071220161306521831,True,True,False,storage
+C00393512,"CHANDLER, A.B. III",Kentucky,2016-04-20 00:00:00,CELL PHONE SERVICE,123.83,VERIZON WIRELESS,http://docquery.fec.gov/cgi-bin/fecimg/?201607119020395061,4071220161306521837,True,True,False,phones: cell/wireless data
 C00393512,"CHANDLER, A.B. III",Kentucky,2015-01-05 00:00:00,STORAGE FACILITY,137.96,STORAGE MART,http://docquery.fec.gov/cgi-bin/fecimg/?15970331222,4040820151241733330,True,True,False,storage
 C00393512,"CHANDLER, A.B. III",Kentucky,2015-01-21 00:00:00,CELL PHONE SERVICE,120.34,VERIZON WIRELESS,http://docquery.fec.gov/cgi-bin/fecimg/?15970331223,4040820151241733333,True,True,False,phones: cell/wireless data
 C00393512,"CHANDLER, A.B. III",Kentucky,2015-02-03 00:00:00,STORAGE FACILITY,137.96,STORAGE MART,http://docquery.fec.gov/cgi-bin/fecimg/?15970331222,4040820151241733331,True,True,False,storage
@@ -80,5 +82,3 @@ C00393512,"CHANDLER, A.B. III",Kentucky,2017-08-03 00:00:00,STORAGE FACILITY,173
 C00393512,"CHANDLER, A.B. III",Kentucky,2017-08-18 00:00:00,CELL PHONE SERVICE,89.94,VERIZON WIRELESS,http://docquery.fec.gov/cgi-bin/fecimg/?201710099075589692,4101020171458169323,True,True,False,phones: cell/wireless data
 C00393512,"CHANDLER, A.B. III",Kentucky,2017-09-05 00:00:00,STORAGE FACILITY,173.96,STORAGE MART,http://docquery.fec.gov/cgi-bin/fecimg/?201710099075589691,4101020171458169319,True,True,False,storage
 C00393512,"CHANDLER, A.B. III",Kentucky,2017-09-20 00:00:00,CELL PHONE SERVICE,134.94,VERIZON WIRELESS,http://docquery.fec.gov/cgi-bin/fecimg/?201710099075589692,4101020171458169325,True,True,False,phones: cell/wireless data
-C00393512,"CHANDLER, A.B. III",Kentucky,2016-04-04 00:00:00,STORAGE FACILITY,147.96,STORAGE MART,http://docquery.fec.gov/cgi-bin/fecimg/?201607119020395060,4071220161306521831,True,True,False,storage
-C00393512,"CHANDLER, A.B. III",Kentucky,2016-04-20 00:00:00,CELL PHONE SERVICE,123.83,VERIZON WIRELESS,http://docquery.fec.gov/cgi-bin/fecimg/?201607119020395061,4071220161306521837,True,True,False,phones: cell/wireless data

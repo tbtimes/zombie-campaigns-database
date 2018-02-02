@@ -1,4 +1,7 @@
 committee_id,candidate_name,state_full,disbursement_date,disbursement_description,disbursement_amount,recipient_name,pdf_url,sub_id,two_years_after_office,two_years_after_last_election,after_death,TIMES_CATEGORY
+C00431502,"SWETT, KATRINA",New Hampshire,2015-02-26 00:00:00,DONATION,1000.0,THE PARK STREET FOUNDATION,http://docquery.fec.gov/cgi-bin/fecimg/?15951122244,4041320151241797753,True,True,False,charitable donation
+C00431502,"SWETT, KATRINA",New Hampshire,2017-01-02 00:00:00,PO BOX FEE,70.0,USPS,http://docquery.fec.gov/cgi-bin/fecimg/?201704139052143586,4041420171398597963,True,True,False,office: postage/shipping
+C00431502,"SWETT, KATRINA",New Hampshire,2013-12-16 00:00:00,DIRECT MAIL,350.0,JENN STARR,http://docquery.fec.gov/cgi-bin/fecimg/?14940096018,4031820141210547591,True,True,False,advertising/marketing: direct mail
 C00431502,"SWETT, KATRINA",New Hampshire,2012-11-16 00:00:00,WORKERS COMP INSURANCE,297.0,PEERLESS  INSURANCE,http://docquery.fec.gov/cgi-bin/fecimg/?13960627380,4021120131181179881,True,True,False,office: insurance
 C00431502,"SWETT, KATRINA",New Hampshire,2012-11-16 00:00:00,SALARY,700.62,"SMITH, DIANE M",http://docquery.fec.gov/cgi-bin/fecimg/?13960627381,4021120131181179883,True,True,False,payroll
 C00431502,"SWETT, KATRINA",New Hampshire,2012-12-03 00:00:00,OFFICE SUPPLIES,41.97,STAPLES,http://docquery.fec.gov/cgi-bin/fecimg/?13960627382,4021120131181179886,True,True,False,office: supplies
@@ -186,6 +189,3 @@ C00431502,"SWETT, KATRINA",New Hampshire,2014-12-18 00:00:00,PRINTING,2758.0,KEY
 C00431502,"SWETT, KATRINA",New Hampshire,2014-12-29 00:00:00,DONATION,1000.0,SEPSIS ALLIANCE,http://docquery.fec.gov/cgi-bin/fecimg/?15950074917,4012620151237290967,True,True,False,charitable donation
 C00431502,"SWETT, KATRINA",New Hampshire,2014-12-30 00:00:00,DATABASE SOFTWARE,675.0,NGP SOFTWARE INC.,http://docquery.fec.gov/cgi-bin/fecimg/?15950074913,4012620151237290958,True,True,False,campaign software
 C00431502,"SWETT, KATRINA",New Hampshire,2014-12-30 00:00:00,DONATION,1000.0,THE COMM. FOR HUMAN RIGHTS IN NORTH KOREA,http://docquery.fec.gov/cgi-bin/fecimg/?15950074915,4012620151237290963,True,True,False,charitable donation
-C00431502,"SWETT, KATRINA",New Hampshire,2015-02-26 00:00:00,DONATION,1000.0,THE PARK STREET FOUNDATION,http://docquery.fec.gov/cgi-bin/fecimg/?15951122244,4041320151241797753,True,True,False,charitable donation
-C00431502,"SWETT, KATRINA",New Hampshire,2017-01-02 00:00:00,PO BOX FEE,70.0,USPS,http://docquery.fec.gov/cgi-bin/fecimg/?201704139052143586,4041420171398597963,True,True,False,office: postage/shipping
-C00431502,"SWETT, KATRINA",New Hampshire,2013-12-16 00:00:00,DIRECT MAIL,350.0,JENN STARR,http://docquery.fec.gov/cgi-bin/fecimg/?14940096018,4031820141210547591,True,True,False,advertising/marketing: direct mail
